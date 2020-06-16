@@ -12,6 +12,20 @@ body {
 nav li {
     display: inline;
     padding: 10px;
-    font-size: 20px;
+    font-size: 40px;
     color: white;
-      }    
+      }   
+h2 {
+    color: whitesmoke;
+    font-size: 30px;
+    padding: 10px;
+} 
+li {
+    font-size: 30px;
+    display: inline;
+}
+p {
+    color: purple;
+    Padding ;2px;
+
+}
