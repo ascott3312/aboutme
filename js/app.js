@@ -46,7 +46,7 @@ if (question4 ==='yes') {
 var question5 = prompt ('Do you like the game of football? Yes or No.').toLowerCase().trim();
 console.log(question5);
 if (question5 ==='yes') {
-  alert('Awesome! I love football too.');
+  alert('Awesome! ' + firstName ' I love football too.');
 } else if (question5 !== 'yes' || question5 === isNaN){
   alert ('Please answer with either Yes or No')
 }
