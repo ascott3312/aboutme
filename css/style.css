@@ -12,8 +12,7 @@ body {
 nav li {
     display: inline;
     padding: 10px;
-    font-size: 40px;
-    color: white;
+    font-size: 20px;
       }   
 h2 {
     color: whitesmoke;
@@ -23,9 +22,12 @@ h2 {
 li {
     font-size: 30px;
     display: inline;
+    color: whitesmoke;
+    padding: 10px;
 }
 p {
-    color: purple;
-    Padding ;2px;
+    color: black;
+    Padding: 2px;
+    margin-left: 15px;
 
 }
