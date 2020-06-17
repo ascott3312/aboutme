@@ -4,6 +4,7 @@
 - Project is to provide a user, to learn about the site owner so I can get to know them better.
 - Lab 03 - Create a Top Ten, convert work experience and education summary into an unordered list.
 - Lab 03 Adding a 6th question that takes is a numeric inuput by prompting the user to guess a number 
+- Lab 03 Adding a 7th question that has multiple possible correct answers that are stored in an array.
 ## Code Example
 
 
@@ -19,7 +20,9 @@
 
 
 
-## Contributors
+## Author
+- Drew Scott
+
 
 
 ## License
