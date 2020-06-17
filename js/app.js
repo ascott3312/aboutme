@@ -1,3 +1,8 @@
+//Footer
+var year = document.getElementById('copyright');
+var today = new Date();
+year.textContent = today.getFullYear();
+
 // Your JS file must contain a 'use strict' declaration at the top, and your javascript file must be linked in your html file as an external script file.
 'use strict';
 console.log('This file is connected.');
@@ -50,10 +55,7 @@ if (question5 ==='yes') {
 } else if (question5 !== 'yes' || question5 === isNaN){
   alert ('Please answer with either Yes or No')
 }
-//Footer
-var year = document.getElementById('copyright');
-var today = new Date();
-year.textContent = today.getFullYear();
+
 
 
 
