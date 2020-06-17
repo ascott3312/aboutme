@@ -23,9 +23,11 @@ h2 {
 } 
 ul li {
     font-size: 30px;
-    display: inline;
+    /* display: inline; */
     color: whitesmoke;
     padding: 10px;
+    list-style: disc;
+    margin: 30px;
 }
 ul {
     list-style: none;
