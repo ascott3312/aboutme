@@ -31,7 +31,7 @@ p {
     Padding: 2px;
     margin-left: 15px;
  }
-ol li {
+  ol li {
     color: black;
     list-style-type: decimal;
     display: block;
