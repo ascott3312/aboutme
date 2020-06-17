@@ -8,6 +8,7 @@ header, footer {
        }
 body {
     background-color: grey;
+    margin: 20px;
      }
 nav li {
     display: inline;
@@ -20,19 +21,23 @@ h2 {
     font-size: 30px;
     padding: 10px;
 } 
-li {
+ul li {
     font-size: 30px;
     display: inline;
     color: whitesmoke;
     padding: 10px;
+}
+ul {
+    list-style: none;
 }
 p {
     color: black;
     Padding: 2px;
     margin-left: 15px;
  }
-  ol li {
+  ol {
     color: black;
-    list-style-type: decimal;
+    list-style: decimal !important;
     display: block;
-}
+    margin: 50px;
+   }  
