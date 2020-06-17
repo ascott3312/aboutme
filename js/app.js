@@ -50,6 +50,10 @@ if (question5 ==='yes') {
 } else if (question5 !== 'yes' || question5 === isNaN){
   alert ('Please answer with either Yes or No')
 }
+//Footer
+var year = document.getElementById('copyright');
+var today = new Date();
+year.textContent = today.getFullYear();
 
 
 
