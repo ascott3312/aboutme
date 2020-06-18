@@ -56,19 +56,22 @@ if (question5 ==='yes') {
   alert ('Please answer with either Yes or No')
 }
 //Question 6
-var winNumber = 30;
-var i = 1;
-var enterNumber = 0;
+var winNumber = 30; //Nunber they need to guess
+for (var i = 0; i <= 8; i++){
 var question6 = prompt ('Let\'s see if you can guess my favorite number?. Enter in a number between 1 and 100');
 console.log(question6);
 if (question6 == winNumber) {
-  alert('Awesome The ' + question6 + ' is my favorite number');
+  alert('Awesome. This ' + question6 + ' is my favorite number');(i === 8);break;
 } 
 if (question6 < winNumber) {
-  alert('The number you guessed is lower than my favorite number');    
-} if(question6 > winNumber) {
-  alert('The number you guessed is greater than my favorite number');
+  alert('The number you guessed is lower than my favorite number');(i++);continue;
+} if(question6 > winNumber) {;
+  alert('The number you guessed is greater than my favorite number');(i++);continue;
 }
+ if(question6 === null || question6 === ' ')
+ alert('Please enter in a number.');(i++);continue;
+}
+console.log('the variable i',i )
 
 
 
