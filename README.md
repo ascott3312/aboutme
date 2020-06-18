@@ -5,6 +5,7 @@
 - Lab 03 - Create a Top Ten, convert work experience and education summary into an unordered list.
 - Lab 03 Adding a 6th question that takes is a numeric inuput by prompting the user to guess a number 
 - Lab 03 Adding a 7th question that has multiple possible correct answers that are stored in an array.
+- Lab 04 Pair Project Completed with Chris L.
 ## Code Example
 
 
