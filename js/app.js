@@ -57,21 +57,17 @@ if (question5 ==='yes') {
 }
 //Question 6
 var winNumber = 30; //Nunber they need to guess my favorite number
-for (var i = 0; i <= 8; i++){
-var question6 = prompt ('Let\'s see if you can guess my favorite number?. Enter in a number between 1 and 100');
-console.log(question6);
-if (question6 === winNumber) {
-  alert('Awesome. This ' + question6 + ' is my favorite number');(i === 8);break;
-} 
-if (question6 < winNumber) {
-  alert('The number you guessed is lower than my favorite number');(i++);continue;
-} if(question6 > winNumber) {
-  alert('The number you guessed is greater than my favorite number');(i++);continue;
-}
-//  if(question6 === null || question6 === ' ')
-//  alert('Please enter in a number.');(i++);continue;
+for (var i = 1; i <= 8; i++) {
+  var question6 = prompt ('Let\'s see if you can guess my favorite number?. Enter in a number between 1 and 50, you get four tries');
+  console.log(question6);
+  if (question6 == winNumber) {
+    alert('Awesome. This ' + question6 + ' is my favorite number');(i === 8);break;
+  } 
+  if (question6 < winNumber) {
+    alert('The number you guessed to low of my favorite number');(i++);continue;
+  }
+  if (question6 > winNumber) {
+    alert('The number you guessed to high of my favorite number ');(i++);continue;
+  }
 }
 console.log('the variable i',i )
-
-
-
