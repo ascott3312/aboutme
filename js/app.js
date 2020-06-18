@@ -41,14 +41,16 @@ function questionTwo(){
   }
 }
 //Question 3
-// var question3 = prompt ('Do you live in the same state as I do? Yes or No.').toLowerCase().trim();
-// console.log(question3);
-// if (question3 ==='yes') {
-//   alert('Awesome.');
-//   userPoints += 1;
-// } else if (question3 !== 'yes' || question3 === isNaN){
-//   alert ('Please answer with either Yes or No')
-// }
+function questionThree(){
+  var question3 = prompt ('Do you live in the same state as I do? Yes or No.').toLowerCase().trim();
+  console.log(question3);
+  if (question3 ==='yes') {
+    alert('Awesome.');
+    userPoints += 1;
+  } else if (question3 !== 'yes' || question3 === isNaN){
+    alert ('Please answer with either Yes or No');
+  }
+}
 //Question 4
 // var question4 = prompt ('Do you have any kids? Yes or No.').toLowerCase().trim();
 // console.log(question4);
@@ -121,4 +123,5 @@ function questionTwo(){
 
 // alert('Thanks for playing ' + firstName + ' you got ' + userPoints + ' out of 11');
 // questionOne();
-questionTwo();
+// questionTwo();
+questionThree();
