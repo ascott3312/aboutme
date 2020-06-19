@@ -7,8 +7,9 @@
 - Lab 03 Adding a 7th question that has multiple possible correct answers that are stored in an array.
 - Lab 04 Pair Project Completed with Chris L.
 ## Code Example
-
-
+```js
+var variable = 10;
+```
 ## Motivation
 
 ## Installation
