@@ -14,8 +14,7 @@ nav li {
     display: inline;
     padding: 20px;
     font-size: 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10;
       }   
 h2 {
     color: whitesmoke;
@@ -38,7 +37,7 @@ p {
     color: black;
     margin-top: 10px;
     margin-left: 55px;
-    margin-bottom 10px;
+    margin-bottom: 10px;
     font-size: 25px;
  }
   ol {
